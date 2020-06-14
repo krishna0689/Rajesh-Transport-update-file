@@ -1,0 +1,235 @@
+.shape
+{
+    width: 70px;
+    height: 55px;
+    background-color:grey;
+    flex-direction: column;
+}
+.shape1
+{
+    width: 70px;
+    height: 55px;
+    background-color:lightgray;
+    flex-direction: column;
+}
+.shape2
+{
+    width: 70px;
+    height: 30px;
+    background-color:#808080;
+    flex-direction: column;
+}
+
+.search
+{
+    position: absolute;
+    top: 30%;
+    width: 379px;
+    right: 12%;
+    height: 500px;
+    z-index: 999999; 
+    margin: auto;
+}
+
+.search1
+{
+    position: absolute;
+    top: 30%;
+    width: 379px;
+    left: 0%;
+    height: 500px;
+    z-index: 999999; 
+    margin: auto;
+}
+.card
+{
+    margin: auto;
+    width: 90%;
+    padding-left: 10px !important;
+    padding-bottom: 10px !important;
+    padding-right: 10px !important;
+    padding-top: 0px !important;
+    align-items: center;
+    position: absolute;
+    top:0;
+    height:auto;
+}
+
+
+
+.abouttext
+{
+    font-size:45px;
+    vertical-align: middle;
+}
+
+.triangle-left
+{
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 1330px solid #d9d9d954;
+}
+
+.line
+{
+    border-left: 1px solid #cfcfcf52;
+    height: 250px;
+}    
+.line1
+{
+    border-top: 1px solid #cfcfcf52;
+    width:250px;
+}
+
+.line2
+{
+    border-top: 1px solid #cfcfcf52;
+}
+
+.triangle-right
+{
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 1330px solid #cfcfcf52;
+}
+
+@media (min-width: 992px)
+{
+    #bus
+    {
+        background: url('../images/busimage.png');
+        width: 100%;
+        height:500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+
+}
+
+@media (max-width: 992px)
+{
+    #bus
+    {
+        display: none;
+    }
+}
+
+@media (max-width: 992px)
+{
+    .triangle-right
+    {
+        display: none;
+    }
+    .triangle-left
+    {
+        display: none;
+    }
+    .line
+    {
+        display: none;    
+    }
+    .line1
+    {
+        display: none;    
+    }
+    .line2
+    {
+        display: none;    
+    }
+    .line3
+    {
+        display: none;    
+    }
+    .nobus
+    {
+        display: none;    
+    }
+    .bxslider
+    {
+        display: none;    
+    }
+    .shape
+    {
+        display:none;
+    }
+    .shape1
+    {
+        display:none;
+    }
+    .shape2
+    {
+        display:none;
+    }
+    .search
+    {
+    position:static;
+    height:auto;
+    }
+  
+}
+
+.text
+{
+    font-weight: 500;
+    color:white;
+    font-size:20px;
+}
+
+.text1
+{
+    font-weight: 200;
+    color:white;
+    font-size:18px;
+    font-style: italic;
+}
+
+.line3
+{
+    border-left: 1px solid orange;
+    height: 170px;
+}    
+
+.footertext
+{
+    font-size:16px;    
+}
+
+.back
+{
+    background-color: blue;  
+    color:white;
+    font-size:12px;
+}
+
+.phone
+{
+    vertical-align: middle;    
+}
+
+.btn
+{
+    background-color:orange;
+}    
+
+.bx-controls{
+    display: none;
+}
+
+.swapicon
+{
+    position: absolute !important;
+    z-index: 100 !important;
+    top: 23% !important;
+    right:5% !important;
+}
+
+.corono
+{
+    position: absolute ;
+    left: 59%;
+    top: -20px;    
+}

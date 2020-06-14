@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+    <head>
+        <title>
+            Bus Ticket Booking at Lowest Fare | Rajesh Transport
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/rajeshstyle.css">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" type="images/jpg" href="assets/images/fav.png">
+    </head>
+    <body>
+        <section class="contactdetails">
+            <div class="container container-expand-lg mx-auto d-block">
+                <div class="row py-2">
+                    <div class="col-lg-8">
+                        <div class="row">  
+                            <div class="col-lg-12"></div>
+                            <div class="col-lg-12">
+                                <h7 class="phone img-responsive"> <img src="assets/images/pic.png"><span class="pl-2"> +91 80 4647 5555 </span>  
+                                </h7>
+                                <h7 class="mail pl-3 img-responsive"> <img src="assets/images/mail.png"> <span class="pl-2"> info@rajeshbus.in </span>  
+                                </h7>
+                                <h7 class="whats pl-3 img-responsive"> <img src="assets/images/wap.png"> <span class="pl-2"> +91 91 3678 5555 </span>  
+                                </h7>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="row float-right"> 
+                            <div class="col-lg-2"></div>
+                            <div class="col-lg-12">
+                                <h7 class="alogin pl-5 img-responsive"> <img src="assets/images/alogin.png"> <a class="login" href="index.html">Signin</a> 
+                                </h7>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="logo" class="mt-2">
+            <div class="container container-expand-lg mx-auto d-block">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <h5 style="color: grey"> Intercity Scheduled departures </h5>
+                        <h5 style="color: grey"> Uber Luxury A/c Passenger sleeper buses </h5> 
+                    </div>
+                    <div class="col-lg-5 text-center">
+                        <img src="assets/images/rajesh logo.png" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $('.slider').bxSlider();
+            });
+        </script>
+        <div class="slider_content">            
+            <div class="bxslider mt-4">
+                <div><img src="assets/images/sliders.png" width="100%"></div>
+                <div><img src="assets/images/sliders.png" width="100%"></div>
+                <div><img src="assets/images/sliders.png" width="100%"></div>
+            </div>
+            <div class="row">
+                <div class="search1 mt-4">
+                    <div class="col-lg-1 text-center">
+                        <div class="row pt-2">
+                            <div col-lg-1>
+                                <div class="shape">
+                                    <img src="assets/images/feed.png" class="img-responsive mt-1">
+                                    <p class="text-center" style="color:white"> <span style="font-size:12px;"> Feedback </span> </p> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pt-2">
+                            <div col-lg-1>
+                                <div class="shape1">
+                                    <img src="assets/images/route.png" class="img-responsive mt-1">
+                                    <p class="text-center" style="color:white"> <span style="font-size:12px;"> Routes </span> </p> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pt-2">
+                            <div col-lg-1>
+                                <div class="shape1">
+                                    <img src="assets/images/board.png" class="img-responsive">
+                                    <p class="text-center" style="color:white"> <span style="font-size:12px;"> Boarding </span> </p> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pt-2">
+                            <div col-lg-1>
+                                <div class="shape1">
+                                    <img src="assets/images/bl.png" class="img-responsive">
+                                    <p class="text-center" style="color:white"> <span style="font-size:12px;"> Locations </span> </p> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pt-2">
+                            <div col-lg-1>
+                                <div class="shape1">
+                                    <img src="assets/images/gal.png" class="img-responsive">
+                                    <p class="text-center" style="color:white"> <span style="font-size:12px;"> Gallery </span> </p> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pt-2">
+                            <div col-lg-1>
+                                <div class="shape2">
+                                    <img src="assets/images/arrow.png" class="img-responsive">
+                                    <p class="text-center" style="color:white"> <span style="font-size:12px;"> Feedback </span> </p> 
+                                </div>
+                            </div>
+                        </div>
+                    </div></div>
+                <div class="search">
+                    <div class="col-lg-12"> 
+                        <div class="row">
+                            <div class="card mt-5 rounded " style="background-color:blue;">
+                                <div class="col-lg-12 mt-4" id="shadow">
+                                    <select class="browser-default custom-select" id="select">
+                                        <option value="" disabled="" selected="">FROM </option>
+                                        <option value="1">Chennai</option>
+                                        <option value="2">Coimbatore</option>
+                                        <option value="3">Banglore</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-12 swapicon">
+                                    <img src="assets/images/swap.png" class="img-responsive mb-2 float-right">
+                                </div>
+                                <div class="col-lg-12 mt-2 mb-2" id="shadow">
+                                    <select class="browser-default custom-select" id="select">
+                                        <option value="#" disabled="" selected="">TO</option>
+                                        <option value="1">Chennai</option>
+                                        <option value="2">Coimbatore</option>
+                                        <option value="3">Banglore</option>
+                                    </select>
+                                </div>
+                                <div class="col-lg-12 mb-2" id="shadow"> 
+                                    <input type="date" id="date-picker-example" class="form-control datepicker" style="font-family:Arial, FontAwesome"> </div>
+                                <div class="col-lg-12 text-center mb-3">
+                                    <a href="" type="submit" class="btn btn-warning btn-block">Search</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section id="textwhy" class="mt-5">
+                <div class="container container-expan-lg mx-auto d-block">
+                    <div class="row text-center">
+                        <div class="col-lg-12">
+                            <h2 style="color: grey"> Now with exclusive TRAVEL SAFE + BUSES <span class="corono"> <img src="assets/images/corono.png"> </span> </h2>
+                            <h7 style="color: grey"> <span style="color:orange;">|</span> Uber Luxury A/c Passenger sleeper buses <span style="color:orange;">|</span> Uber Luxury A/c Passenger sleeper buses <span style="color:orange;">|</span> Uber Luxury A/c Passenger sleeper buses </h7> <br>
+                            <h7 style="color: grey"> <span style="color:orange;">|</span> Uber Luxury A/c Passenger sleeper buses <span style="color:orange;">|</span> Uber Luxury A/c Passenger sleeper buses 
+                        </div>
+                    </div>
+                    <div class="row text-center mt-5">
+                        <div class="col-lg-12">
+                            <p class="about" href="#">
+                                <span class="abouttext pl-1 display-4"> WHY </span> <img src="assets/images/name.png" class="img-fluid"> <span class="abouttext pl-1 display-4"> BUS? </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="shape">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="triangle-left">     
+                        </div>
+                    </div>
+            </section>
+            <section id="covid19">
+                <div class="container text-center">
+                    <div class="row mt-3">
+                        <div class="col-lg-12">
+                            <img src="assets/images/award.png" class="img-responsive">
+                            <h1 style="color:#929292"> INDUSTRY FIRST COVID SAFETY FEATURES </h1>
+                        </div>
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-lg-1"></div> 
+                        <div class="col-lg-3">
+                            <img src="assets/images/db.png">
+                            <p class="mt-4"> DISPOSABLE <br> PREMUIM QUALITY <br> BED LINE</p>
+                        </div>
+                        <div class="col-lg-1 text-center">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="col-lg-4"></div>
+                                    <div class="col-lg-4">
+                                        <div class="line">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="assets/images/busclean.png">
+                            <p class="mt-4"> BUS EXTERIOR <br> HOT STEAM <br> WASH </p>
+                        </div>
+                        <div class="col-lg-1">
+                            <div class="col-lg-1 text-center">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-4"></div>
+                                        <div class="col-lg-4">
+                                            <div class="line">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="assets/images/ozone.png">
+                            <p class="mt-4"> BUS INTERIOR <br> OZONE AIR  <br> STERILIZATION </p>
+                        </div>
+                    </div>
+                    <div class="row pt-2">
+                        <div class="col-lg-1"></div> 
+                        <div class="col-lg-3">
+                            <div class="line1"></div>
+                        </div>
+                        <div class="col-lg-1 text-center">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="col-lg-4"></div>
+                                    <div class="col-lg-4">
+                                        <div class="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="line1"></div>
+                        </div>
+                        <div class="col-lg-1">
+                            <div class="col-lg-1 text-center">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-4"></div>
+                                        <div class="col-lg-4">
+                                            <div class="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
+                        <div class="col-lg-3">
+                            <div class="line1"></div>
+                        </div>
+                    </div>
+                    <div class="row pt-5">
+                        <div class="col-lg-1"></div> 
+                        <div class="col-lg-3">
+                            <img src="assets/images/spray.png">
+                            <p class="mt-4"> BUS INTERIOR <br> FUMIGATION USING HUMAN <br> SAFE CHEMICAL </p>
+                        </div>
+                        <div class="col-lg-1 text-center">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="col-lg-4"></div>
+                                    <div class="col-lg-4">
+                                        <div class="line">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="assets/images/wash.png">
+                            <p class="mt-4"> COMPLEMENTRY <br> MULTIPLE USEGE <br> HAND SANITIZER </p>
+                        </div>
+                        <div class="col-lg-1">
+                            <div class="col-lg-1 text-center">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-4"></div>
+                                        <div class="col-lg-4">
+                                            <div class="line">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
+                        <div class="col-lg-3">
+                            <img src="assets/images/passanger.png">
+                            <p class="mt-4"> PASSANGER <br> SANITIZATION BEFORE <br> ENTERING CABIN </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="shape" class="mt-5">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="triangle-right">     
+                        </div>
+                    </div>
+            </section>
+            <section id="comfort">
+                <div class="container text-center">
+                    <div class="row mt-3">
+                        <div class="col-lg-12">
+                            <img src="assets/images/crown.png" class="img-responsive">
+                            <h1 style="color:#929292"> YOUR COMFORT...OUR PRIORITY </h1>
+                        </div>
+                    </div>
+                    <div class="row mt-3 pt-5">
+                        <div class="col-lg-1"></div> 
+                        <div class="col-lg-3">
+                            <img src="assets/images/water.png">
+                            <p class="mt-4"> COMPLEMENTRY <br> WATER BOTTLE</p>
+                        </div>
+                        <div class="col-lg-1 text-center">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="col-lg-4"></div>
+                                    <div class="col-lg-4">
+                                        <div class="line">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <img src="assets/images/snacks.png">
+                            <p class="mt-4"> COMPLEMENTRY <br> SNACKS </p>
+                        </div>
+                        <div class="col-lg-1">
+                            <div class="col-lg-1 text-center">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-4"></div>
+                                        <div class="col-lg-4">
+                                            <div class="line">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
+                        <div class="col-lg-3">
+                            <img src="assets/images/tissue.png">
+                            <p class="mt-4"> FACIAL WET WIPE <br>  TISSUE </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="shape" class="mt-5">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="triangle-left">     
+                        </div>
+                    </div>
+            </section>
+            <section id="aminites">
+                <div class="container text-center">
+                    <div class="row mt-5">
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="col-lg-2"></div>
+                                <div class="col-lg-8">
+                                    <h1 style="color:#929292"> AMENITIES ON BOARD </h1>
+                                </div>
+                                <div class="col-lg-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3 pt-5">
+                        <div class="col-lg-1"></div> 
+                        <div class="col-lg-2">
+                            <img src="assets/images/GPS.png">
+                            <p class="mt-4"> LIVE <br> TRACKING </p>
+                        </div>
+                        <div class="col-lg-1 text-center">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="col-lg-4"></div>
+                                    <div class="col-lg-4">
+                                        <div class="line">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="assets/images/fire.png">
+                            <p class="mt-4"> MULTIPLE POINT <br> FIRE EXTINGUISHER </p>
+                        </div>
+                        <div class="col-lg-1">
+                            <div class="col-lg-1 text-center">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-4"></div>
+                                        <div class="col-lg-4">
+                                            <div class="line">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
+                        <div class="col-lg-2">
+                            <img src="assets/images/tv.png">
+                            <p class="mt-4"> ON-BOARD VISUAL <br> ENTERTINMENT </p>
+                        </div>
+                        <div class="col-lg-1">
+                            <div class="col-lg-1 text-center">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-4"></div>
+                                        <div class="col-lg-4">
+                                            <div class="line">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
+                        <div class="col-lg-2">
+                            <img src="assets/images/support.png">
+                            <p class="mt-4"> 24X7 CUSTOMER <br>  SUPPORT </p>
+                        </div>
+                    </div>
+                    <div class="row mt-5 pt-2">
+                        <div class="col-lg-1"></div> 
+                        <div class="col-lg-2">
+                            <div class="line2"></div>
+                        </div>
+                        <div class="col-lg-1 text-center">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="col-lg-4"></div>
+                                    <div class="col-lg-4">
+                                        <div class="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="line2"></div>
+                        </div>
+                        <div class="col-lg-1">
+                            <div class="col-lg-1 text-center">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-4"></div>
+                                        <div class="col-lg-4">
+                                            <div class="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
+                        <div class="col-lg-2">
+                            <div class="line2"></div>
+                        </div>
+                        <div class="col-lg-1">
+                            <div class="col-lg-1 text-center">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-4"></div>
+                                        <div class="col-lg-4">
+                                            <div class="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
+                        <div class="col-lg-2">
+                            <div class="line2"></div>
+                        </div>
+                    </div>
+                    <div class="row mt-3 pt-5">
+                        <div class="col-lg-1"></div> 
+                        <div class="col-lg-2">
+                            <img src="assets/images/mask.png">
+                            <p class="mt-4"> CUSTOMER FRIENDLY <br> CABIN CREW </p>
+                        </div>
+                        <div class="col-lg-1 text-center">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="col-lg-4"></div>
+                                    <div class="col-lg-4">
+                                        <div class="line">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="assets/images/women.png">
+                            <p class="mt-4"> WOMEN PASSANGER <br> FRIENDLY </p>
+                        </div>
+                        <div class="col-lg-1">
+                            <div class="col-lg-1 text-center">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-4"></div>
+                                        <div class="col-lg-4">
+                                            <div class="line">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
+                        <div class="col-lg-2">
+                            <img src="assets/images/light.png">
+                            <p class="mt-4"> INDIVUDAL <br> READING LIGHT <br> MOBILE CHARGER</p>
+                        </div>
+                        <div class="col-lg-1">
+                            <div class="col-lg-1 text-center">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-4"></div>
+                                        <div class="col-lg-4">
+                                            <div class="line">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
+                        <div class="col-lg-2">
+                            <img src="assets/images/locicon.png">
+                            <p class="mt-4"> GBS ENABLED <br> BUS BOARDING </p>
+                        </div>
+                    </div>
+            </section>
+
+            <section id="shape" class="mt-5">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="triangle-right">     
+                        </div>
+                    </div>
+            </section>
+            <section id="aminites">
+                <div class="container text-center">
+                    <div class="row mt-5">
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="col-lg-2"></div>
+                                <div class="col-lg-8">
+                                    <h1 style="color:#929292"> YOUR SMILE WITH OUR MILES </h1>
+                                </div>
+                                <div class="col-lg-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-3 pt-5">
+                        <div class="col-lg-1"></div> 
+                        <div class="col-lg-2">
+                            <img src="assets/images/ticket.png">
+                            <p class="mt-4"> FLEXI FARES <br> (Best Value Added Fare) </p>
+                        </div>
+                        <div class="col-lg-1 text-center">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="col-lg-4"></div>
+                                    <div class="col-lg-4">
+                                        <div class="line">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="assets/images/ft.png">
+                            <p class="mt-4"> FLEXI FARES <br> Modify Your Travel Plan </p>
+                        </div>
+                        <div class="col-lg-1">
+                            <div class="col-lg-1 text-center">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-4"></div>
+                                        <div class="col-lg-4">
+                                            <div class="line">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
+                        <div class="col-lg-2">
+                            <img src="assets/images/threebus.png">
+                            <p class="mt-4"> NEW AND YOUNG <br> UBER LUXURY <br> BUS FLEET </p>
+                        </div>
+                        <div class="col-lg-1 text-center">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="col-lg-4"></div>
+                                    <div class="col-lg-4">
+                                        <div class="line">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="assets/images/leaf.png">
+                            <p class="mt-4"> BS-IV COMPLAINT <br>  ECO-FRIENDLY BUS </p>
+                        </div>
+                    </div>
+                    <div class="row mt-5 pt-2">
+                        <div class="col-lg-1"></div> 
+                        <div class="col-lg-2">
+                            <div class="line2"></div>
+                        </div>
+                        <div class="col-lg-1 text-center">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="col-lg-4"></div>
+                                    <div class="col-lg-4">
+                                        <div class="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <div class="line2"></div>
+                        </div>
+                        <div class="col-lg-1">
+                            <div class="col-lg-1 text-center">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-4"></div>
+                                        <div class="col-lg-4">
+                                            <div class="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
+                        <div class="col-lg-2">
+                            <div class="line2"></div>
+                        </div>
+                        <div class="col-lg-1">
+                            <div class="col-lg-1 text-center">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-4"></div>
+                                        <div class="col-lg-4">
+                                            <div class="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
+                        <div class="col-lg-2">
+                            <div class="line2"></div>
+                        </div>
+                    </div>
+                    <div class="row mt-3 pt-5">
+                        <div class="col-lg-1"></div> 
+                        <div class="col-lg-2">
+                            <img src="assets/images/bustime.png">
+                            <p class="mt-4"> 95% ON-TIME <br> GAURANTEE </p>
+                        </div>
+                        <div class="col-lg-1 text-center">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="col-lg-4"></div>
+                                    <div class="col-lg-4">
+                                        <div class="line">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <img src="assets/images/eticket.png">
+                            <p class="mt-4"> E-TICKETING & <br> M-TICKETING </p>
+                        </div>
+                        <div class="col-lg-1">
+                            <div class="col-lg-1 text-center">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-4"></div>
+                                        <div class="col-lg-4">
+                                            <div class="line">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
+                        <div class="col-lg-2">
+                            <img src="assets/images/mic.png">
+                            <p class="mt-4"> CENTRALIZED <br> PERSONALIZED <br> ANNOUNCEMENT </p>
+                        </div>
+                        <div class="col-lg-1">
+                            <div class="col-lg-1 text-center">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="col-lg-4"></div>
+                                        <div class="col-lg-4">
+                                            <div class="line">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div></div>
+                        <div class="col-lg-2">
+                            <img src="assets/images/pay.png">
+                            <p class="mt-4"> FREQUENT <br> TRAVELER <br> REWARDS </p>
+                        </div>
+                    </div>
+            </section>
+            <section id="bus" class="mt-4">
+                <div class="container">
+                    <div class="row pt-4">
+                        <div class="col-lg-12">
+                            <div class="col-lg-10">
+                                <h1 style="color:white"> WE ARE HEARING YOU </h1>
+                            </div>
+                            <div class="col-lg-2"></div>
+                        </div>
+                    </div> 
+                    <div class="row mt-5 pt-5">
+                        <div class="col-lg-6"></div>
+                        <div class="col-lg-6">
+                            <div class="row"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6"></div>
+                        <div class="col-lg-6">
+                            <div class="row"></div>
+                        </div>
+                    </div>
+                    <div class="row mt-5 pt-5">
+                        <div class="col-lg-4">
+
+                        </div>
+                        <div class="col-lg-4">
+
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="row float-right">
+                                <p class="text"> " Value for Money,Great Service<br> Clean and Neat Well Maintained Buses..<br> Worth Every Rupee you pay for... "</p>
+                                <p class="text1"> - Mr.GuruPrasad, Bangalore </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="mobweb" class="mt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="col-lg-12">
+                                <h1> GET </h1>
+                            </div>
+                            <div class="col-lg-12">
+                                <img src="assets/images/namelogo.png" class="img-fluid"> <span class="abouttext pl-1"> BUS </span>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="col-lg-2">
+
+                                </div>
+                                <div class="col-lg-8">
+                                    <h1 class="text-center"> APP </h1>
+                                </div>
+                                <div class="col-lg-2">
+
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <img src="assets/images/gpay.png">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <img src="assets/images/appstore.png">                                   
+                                    </div>
+                                    <div class="col-lg-4">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 mt-5">
+                                <div class="col-lg-8">
+                                    <div class="col-lg-12">
+                                        <p class="text-center"> Exclusive In-App Bus Booking <br> Features and Bigger Reward Points </p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 text-center">
+                            <img src="assets/images/mobpic.png">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="shape" class="mt-5">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="triangle-right">     
+                        </div>
+                    </div>
+            </section>
+            <section id="footer">
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <img src="assets/images/rajesh logo.png">
+                            <p class="mt-3"> Regd.Office : #96,Srisi Heights,Near Srici Circle<br> (Mysore Road),Chamarajept, Bangalore 560018 </p>
+                        </div>
+                        <div class="col-lg-1 text-center">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="col-lg-4"></div>
+                                    <div class="col-lg-4">
+                                        <div class="line3">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <p><h6 class="phone img-responsive"> <img src="assets/images/pic.png"><span class="pl-2"> +91 80 4647 5555 </span> 
+                                    </h6></p>
+                                    <p><h6 class="mail img-responsive"> <img src="assets/images/mail.png"> <span class="pl-2"> info@rajeshbus.in </span>  
+                                    </h6></p>
+                                    <p><h6 class="whats img-responsive"> <img src="assets/images/wap.png"> <span class="pl-2"> +91 91 3678 5555 </span>  
+                                    </h6></p>
+                                </div>
+                                <div class="col-lg-1 text-center">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="col-lg-4"></div>
+                                            <div class="col-lg-4">
+                                                <div class="line3">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <ul style="color:orange">
+                                        <li><p><a class="footertext" href="#">ABOUT US</a></p></li>
+                                        <li><p><a class="footertext" href="#">FAQS</a></p></li>
+                                        <li><p><a class="footertext" href="#">TERMS & CONDITIONS</a></p></li>
+                                        <li><p><a class="footertext" href="#">POLICIES </a></p></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="footnote" class="back"> 
+                <div class="container mt-3">
+                    <div class="row">
+                        <div class="col-lg-6 py-2">
+                            &#169 RAJESH TRANSPORT. All Rights Reversed.2020
+                        </div>
+                        <div class="col-lg-6 py-2">
+                            <div class="row float-right">
+                                <div class="col-lg-12">
+                                    Powered & Maintain by : EZEEINFO
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <script>
+                $('.bxslider').bxSlider({
+                    auto: true,
+                    autoControls: true,
+                    stopAutoOnClick: true,
+                    pager: true,
+                });
+            </script>
+            <script src="asset/js/aos.js"></script>
+            <script>
+                AOS.init({
+                    once: true
+                });
+            </script>
+    </body>
+</html>
+
