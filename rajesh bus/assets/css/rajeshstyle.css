@@ -2,21 +2,21 @@
 {
     width: 70px;
     height: 55px;
-    background-color:grey;
+    background-color:#aaabaf;
     flex-direction: column;
 }
 .shape1
 {
     width: 70px;
     height: 55px;
-    background-color:lightgray;
+    background-color:#d2d3d5;
     flex-direction: column;
 }
 .shape2
 {
     width: 70px;
     height: 30px;
-    background-color:#808080;
+    background-color:#aaabaf;
     flex-direction: column;
 }
 
@@ -55,11 +55,15 @@
     height:auto;
 }
 
-
+.shadow
+{
+    border: 1px solid;
+    box-shadow:5px 5px #aaabaf;
+}
 
 .abouttext
 {
-    font-size:45px;
+    font-size:60px;
     vertical-align: middle;
 }
 
@@ -68,23 +72,22 @@
     width: 0;
     height: 0;
     border-top: 50px solid transparent;
-    border-left: 1330px solid #d9d9d954;
+    border-left: 1330px solid #e6e7e9;
 }
 
 .line
 {
-    border-left: 1px solid #cfcfcf52;
+    border-left: 1px solid #e6e7e9;
     height: 250px;
 }    
 .line1
 {
-    border-top: 1px solid #cfcfcf52;
-    width:250px;
+    border-top: 1px solid #e6e7e9;
 }
 
 .line2
 {
-    border-top: 1px solid #cfcfcf52;
+    border-top: 1px solid #e6e7e9;
 }
 
 .triangle-right
@@ -92,7 +95,7 @@
     width: 0;
     height: 0;
     border-top: 50px solid transparent;
-    border-right: 1330px solid #cfcfcf52;
+    border-right: 1330px solid #e6e7e9;
 }
 
 @media (min-width: 992px)
@@ -166,10 +169,10 @@
     }
     .search
     {
-    position:static;
-    height:auto;
+        position:static;
+        height:auto;
     }
-  
+
 }
 
 .text
@@ -177,6 +180,7 @@
     font-weight: 500;
     color:white;
     font-size:20px;
+    font-family: montserrat;
 }
 
 .text1
@@ -195,14 +199,19 @@
 
 .footertext
 {
-    font-size:16px;    
+    font-size:12px;    
+}
+.foot
+{
+    font-size:10px;
 }
 
 .back
 {
-    background-color: blue;  
+    background-color: #3e4095;  
     color:white;
     font-size:12px;
+    font-family: montserrat;
 }
 
 .phone
@@ -212,7 +221,10 @@
 
 .btn
 {
-    background-color:orange;
+    background-color:#f58634;
+    color:white;
+    box-shadow: 5px 5px #aaabaf;
+    font-family: montserrat;
 }    
 
 .bx-controls{
@@ -229,7 +241,24 @@
 
 .corono
 {
-    position: absolute ;
-    left: 59%;
-    top: -20px;    
+    position: absolute;
+    left: 61%;
+    top: -22px;    
+}
+
+.font
+{
+    font-family: 'Lato', sans-serif; 
+}
+
+.font1
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size:13px;
 }
